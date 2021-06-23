@@ -1,0 +1,17 @@
+{
+	"name": "azuredata-factory-training",
+	"properties": {
+		"globalParameters": {
+			"global": {
+				"type": "string",
+				"value": "csv"
+			}
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b9341306-d907-4767-bccb-0421981b2bd4",
+		"tenantId": "b9094134-0dec-4675-ae5e-d5d749a24392"
+	}
+}
