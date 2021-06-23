@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azuredata-factory-training"
+		},
+		"AzureBlobStorageblobGitHub_connectionString": {
+			"value": ""
+		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"AzureSqlDatabaseSqlserver_connectionString": {
+			"value": ""
+		},
+		"ls_azuredataLakestorage_accountKey": {
+			"value": ""
+		},
+		"ls_zure_blobsorage_connectionString": {
+			"value": ""
+		},
+		"ls_azuredataLakestorage_properties_typeProperties_url": {
+			"value": "https://azureg2storageaccount.dfs.core.windows.net"
+		}
+	}
+}
